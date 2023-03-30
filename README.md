@@ -27,3 +27,43 @@
 
  >События HTML — это специальные глобальные атрибуты, используемые в тегах для вызова обработчиков событий, написанных на различных языках сценариев таких, как JavaScript и вызываемых, когда на странице происходит какое-либо действие. События позволяют сделать вашу страницу динамической.
 ![](/Screenshot_2.png)
+
+> #### creatElement() 
+>The JavaScript document.createElement() method allows you to create and return a 
+    new element (an empty Element node) with the specified tag name.
+
+  1. createElement(elementName): Creates an html element whose tag is
+     passed as a parameter. Returns the created element
+
+  В HTML-документе метод document.createElement() создает HTML-элемент, указанный tagName, или HTMLUnknownElement, если tagName не распознан.
+![](https://github.com/Muhammadi02062720/Pres-5-/blob/1c8ecf0656bbdb134de7ef494a7518786a95a2e8/images/Screenshot_10.png)
+
+> ## HTML DOM Element appendChild()
+
+ >Метод appendChild() добавляет узел (элемент) в качестве последнего
+дочернего элемента элемента.
+appendChild() добавляет узел в конец списка дочерних элементов
+указанного родительского узла. Если данный дочерний элемент является ссылкой на
+существующий узел в документе, то appendChild() 
+функция перемещает его из текущего положения в новое положение
+![](/Screenshot_3.png)
+
+>  #### classlist
+
+ >Свойство classList возвращает псевдомассив DOMTokenList, содержащий все классы элемента.
+
+   >ClassList является геттером. Возвращаемый им объект имеет несколько методов:
+   >1. add( String [,String] )
+     >Добавляет элементу указанные классы
+     ![](/Screenshot_4.png)
+
+   >2. remove( String [,String] ) 
+     >Удаляет у элемента указанные классы item ( Number ) Результат аналогичен вызову сlassList[Number]
+
+     ![](/Screenshot_5.png)
+
+   >3. toggle ( String [, Boolean]) 
+     >Если класс у элемента отсутствует - добавляет, иначе - убирает. Когда вторым параметром передано false - удаляет указанный класс, а если true - добавляет. Если вторым параметром передан undefined или переменная с typeof == 'undefined', поведение будет аналогичным передаче только первого параметра при вызове toggle. contains ( String ) Проверяет, есть ли данный класс у элемента (вернёт true или false)
+
+     ![](/Screenshot_7.png)
+   
